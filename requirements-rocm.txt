@@ -11,9 +11,8 @@ torch>=2.0.0+rocm5.5,<2.1.0+rocm5.5
 torchvision>=0.15.0+rocm5.5,<0.16.0+rocm5.5
 torchaudio>=2.0.0+rocm5.5,<2.1.0+rocm5.5
 accelerate
-transformers==4.28.1
+transformers==4.31.*
 diffusers==0.16.1
 silero-api-server
 chromadb
 sentence_transformers
-edge-tts
